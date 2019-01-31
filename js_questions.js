@@ -136,11 +136,18 @@ function getSumEvent()
 	console.log( `sum is ${+val1 + +val2}`)
 }
 getSumEvent();
-
+  
+printHeader(`
 // Define onchange event handler.
 // Add <input> element values.
 // Put the sum in the <span> element.
 // If values cannot be added, put "Cannot add" in the <span> element
+`);
+function onChangeEvent()
+{
+	
+}
+onChangeEvent();
 
 // 7. Skills Event
 // NOTE: Write unobtrusive Javascript
